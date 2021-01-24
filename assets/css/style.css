@@ -10,6 +10,29 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Anchor and Paragraph Styles */
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Float Styles */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
 /* Header Styles */
 
 .header {
@@ -45,17 +68,6 @@ body {
     margin-left: 25px;
 }
 
-/* Anchor and Paragraph Styles */
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
 /* Hero Styles */
 
 .hero {
@@ -65,18 +77,6 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-}
-
-/* Float Styles */
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
 }
 
 /* Content Styles */
